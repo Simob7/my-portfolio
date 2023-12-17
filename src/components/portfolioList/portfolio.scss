@@ -1,0 +1,19 @@
+@import "../../global.scss";
+.portfolio-list {
+  text-transform: capitalize;
+  background-color: white;
+  border: 2px solid $mainColor;
+  padding: 8px 4px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: $mainColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+  }
+}
